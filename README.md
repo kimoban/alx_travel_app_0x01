@@ -68,6 +68,7 @@ python manage.py runserver
 The application will be available at http://localhost:8000  
 
 ## Project Structure
+```
 alx_travel_app/
 ├── .env.example                 # Environment variable template  
 ├── .gitignore                   # Git ignore rules  
@@ -90,7 +91,7 @@ alx_travel_app/
         ├── urls.py              # App URL routes  
         └── views.py             # API views  
 │   └── README.md
-
+```
 ### Database Seeding
 To populate the database with sample listings, bookings, and reviews:
 
